@@ -16,7 +16,7 @@ You can send me pull request to upload your test cases.
 
 If you are not familiar with github, you can click [here](https://www.bilibili.com/video/BV1ht411R7p8) for a simple tutorial. <font size="1">~~_(还会教你如何女装)_~~</font>
 
-Also if you want to learn how to write Markdown, you can click [here](https://www.runoob.com/markdown/md-tutorial.html
+Also if you want to learn how to write Markdown, you can click [here](https://www.runoob.com/markdown/md-tutorial.html)
 
 ### Contact me:
 - Email: jzhanger@connect.ust.hk
