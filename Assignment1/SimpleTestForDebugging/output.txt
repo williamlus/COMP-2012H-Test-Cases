@@ -1,0 +1,68 @@
+Welcome to COMP 2012H PA 1!
+MINESWEEPER!
+
+Please input the following:
+Number of rows (5-25): 5 5 5 5
+Number of cols (5-25): Number of mines (1 mine - 20% mines): Game ID (0-100):
+   A B C D E
+ 1 o o o o o
+ 2 o o o o o
+ 3 o o o o o
+ 4 o o o o o
+ 5 o o o o o
+
+Flags Left: 5
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+0 A1
+Please enter cell coordinates:
+   A B C D E
+ 1 . . . . .
+ 2 1 1 1 1 1
+ 3 o o o o o
+ 4 o o o o o
+ 5 o o o o o
+
+Flags Left: 5
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+2
+
+   A B C D E
+ 1 . . . . .
+ 2 1 1 1 1 1
+ 3 o o o o o
+ 4 o o o o o
+ 5 o o o o o
+
+Flags Left: 5
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+3
+
+   A B C D E
+ 1 . . . . .
+ 2 1 1 1 1 1
+ 3 o o 3 o o
+ 4 o o o o o
+ 5 o o o o o
+
+Flags Left: 5
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally

@@ -1,0 +1,182 @@
+Welcome to COMP 2012H PA 1!
+MINESWEEPER!
+
+Please input the following:
+Number of rows (5-25): 25 25 100 0
+Number of cols (5-25): Number of mines (1 mine - 20% mines): Game ID (0-100):
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y
+ 1 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 2 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 3 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 4 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 5 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 6 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 7 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 8 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 9 o o o o o o o o o o o o o o o o o o o o o o o o o
+10 o o o o o o o o o o o o o o o o o o o o o o o o o
+11 o o o o o o o o o o o o o o o o o o o o o o o o o
+12 o o o o o o o o o o o o o o o o o o o o o o o o o
+13 o o o o o o o o o o o o o o o o o o o o o o o o o
+14 o o o o o o o o o o o o o o o o o o o o o o o o o
+15 o o o o o o o o o o o o o o o o o o o o o o o o o
+16 o o o o o o o o o o o o o o o o o o o o o o o o o
+17 o o o o o o o o o o o o o o o o o o o o o o o o o
+18 o o o o o o o o o o o o o o o o o o o o o o o o o
+19 o o o o o o o o o o o o o o o o o o o o o o o o o
+20 o o o o o o o o o o o o o o o o o o o o o o o o o
+21 o o o o o o o o o o o o o o o o o o o o o o o o o
+22 o o o o o o o o o o o o o o o o o o o o o o o o o
+23 o o o o o o o o o o o o o o o o o o o o o o o o o
+24 o o o o o o o o o o o o o o o o o o o o o o o o o
+25 o o o o o o o o o o o o o o o o o o o o o o o o o
+
+Flags Left: 100
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+0 J9
+Please enter cell coordinates:
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y
+ 1 o o o o o o o o o o o o o o o o o o o o o o o o o
+ 2 o o o 3 1 1 o o o o o o o o o o o o o o o o o o o
+ 3 o o o 2 . 1 o o o o o o 3 1 1 1 1 3 o 4 2 1 1 1 o
+ 4 o o o 1 . 1 o o o o o o 1 . . . . 1 1 1 . . . 1 o
+ 5 o o o 1 . 1 o o o 1 1 1 1 . . . . . . . . . . 1 o
+ 6 o o o 1 . 1 1 2 1 1 . . . . . . 1 1 1 . 1 2 2 3 o
+ 7 o o o 2 . . . . . . . . . . . . 2 o 2 . 1 o o o o
+ 8 o o o 1 1 1 1 . . . . . . . . . 2 o 2 . 1 2 o o o
+ 9 o o o o o o 3 1 . . 1 1 1 . . 1 2 2 1 . . 1 o o o
+10 o o o o o o o 1 . . 1 o 1 . . 1 o 1 . . . 2 o o o
+11 o o o o o o o 1 . . 1 2 2 1 . 1 1 1 . . . 3 o o o
+12 o o o o o o o 1 . . . 1 o 1 . . . . . . . 2 o o o
+13 o o o o o o o 1 . . . 1 1 1 . . . . . . . 2 o o o
+14 o o o o o o o 1 . 1 2 2 1 . . . . . . . . 1 o o o
+15 o o o o o o o 1 1 2 o o 1 . 1 1 1 . . . . 1 1 2 o
+16 o o o o o o o o o o o o 1 1 3 o 3 1 1 . . . . 1 o
+17 o o o o o o o o o o o o o o o o o o 3 1 1 1 1 1 o
+18 o o o o o o o o o o o o o o o o o o o o o o o o o
+19 o o o o o o o o o o o o o o o o o o o o o o o o o
+20 o o o o o o o o o o o o o o o o o o o o o o o o o
+21 o o o o o o o o o o o o o o o o o o o o o o o o o
+22 o o o o o o o o o o o o o o o o o o o o o o o o o
+23 o o o o o o o o o o o o o o o o o o o o o o o o o
+24 o o o o o o o o o o o o o o o o o o o o o o o o o
+25 o o o o o o o o o o o o o o o o o o o o o o o o o
+
+Flags Left: 100
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+3
+
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y
+ 1 . 1 2 x 1 1 1 1 . 1 x 2 2 1 1 1 1 2 2 3 2 1 1 1 1
+ 2 . 2 x 3 1 1 x 1 . 1 2 x 2 x 1 1 x 3 x x x 1 1 x 1
+ 3 . 2 x 2 . 1 2 2 1 . 2 2 3 1 1 1 1 3 x 4 2 1 1 1 1
+ 4 1 2 2 1 . 1 2 x 2 1 1 x 1 . . . . 1 1 1 . . . 1 1
+ 5 1 x 2 1 . 1 x 3 x 1 1 1 1 . . . . . . . . . . 1 x
+ 6 1 2 x 1 . 1 1 2 1 1 . . . . . . 1 1 1 . 1 2 2 3 2
+ 7 . 2 2 2 . . . . . . . . . . . . 2 x 2 . 1 x x 4 x
+ 8 . 1 x 1 1 1 1 . . . . . . . . . 2 x 2 . 1 2 4 x x
+ 9 . 1 1 1 2 x 3 1 . . 1 1 1 . . 1 2 2 1 . . 1 4 x o
+10 1 1 1 . 2 x x 1 . . 1 x 1 . . 1 x 1 . . . 2 x x o
+11 2 x 2 . 1 2 2 1 . . 1 2 2 1 . 1 1 1 . . . 3 x o o
+12 2 x 2 . . 1 1 1 . . . 1 x 1 . . . . . . . 2 x 4 x
+13 2 2 1 1 1 2 x 1 . . . 1 1 1 . . . . . . . 2 2 3 1
+14 x 2 . 1 x 2 1 1 . 1 2 2 1 . . . . . . . . 1 x 1 .
+15 x 3 2 4 3 2 1 1 1 2 x x 1 . 1 1 1 . . . . 1 1 2 1
+16 2 3 x x x 1 1 x 1 2 x 3 1 1 3 x 3 1 1 . . . . 1 x
+17 x 4 5 x 3 1 1 1 1 2 2 2 . 1 x x 4 x 3 1 1 1 1 1 1
+18 2 x x 2 1 . . . . 1 x 1 . 1 2 2 3 x x 1 1 x 2 1 .
+19 1 2 3 3 2 1 . . . 1 1 2 1 1 . 1 3 4 3 1 1 2 x 1 .
+20 . . 1 x x 1 . 1 1 2 1 2 x 3 2 3 x x 3 1 1 1 1 1 .
+21 . . 1 3 3 2 . 1 x 2 x 2 3 x x 3 x x 4 x 2 . . . .
+22 . . . 1 x 1 . 1 1 3 2 2 3 x 4 2 2 2 3 x 2 . 1 1 1
+23 1 1 . 1 1 1 . . . 1 x 2 3 x 3 1 1 2 3 3 3 2 2 x 1
+24 x 2 . . 1 1 1 . . 1 3 x 3 2 x 2 2 x x 3 x x 2 1 1
+25 x 2 . . 1 x 1 . . . 2 x 2 1 2 x 2 2 3 x 3 2 1 . .
+
+Flags Left: 2
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+1 X11
+Please enter cell coordinates:
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y
+ 1 . 1 2 x 1 1 1 1 . 1 x 2 2 1 1 1 1 2 2 3 2 1 1 1 1
+ 2 . 2 x 3 1 1 x 1 . 1 2 x 2 x 1 1 x 3 x x x 1 1 x 1
+ 3 . 2 x 2 . 1 2 2 1 . 2 2 3 1 1 1 1 3 x 4 2 1 1 1 1
+ 4 1 2 2 1 . 1 2 x 2 1 1 x 1 . . . . 1 1 1 . . . 1 1
+ 5 1 x 2 1 . 1 x 3 x 1 1 1 1 . . . . . . . . . . 1 x
+ 6 1 2 x 1 . 1 1 2 1 1 . . . . . . 1 1 1 . 1 2 2 3 2
+ 7 . 2 2 2 . . . . . . . . . . . . 2 x 2 . 1 x x 4 x
+ 8 . 1 x 1 1 1 1 . . . . . . . . . 2 x 2 . 1 2 4 x x
+ 9 . 1 1 1 2 x 3 1 . . 1 1 1 . . 1 2 2 1 . . 1 4 x o
+10 1 1 1 . 2 x x 1 . . 1 x 1 . . 1 x 1 . . . 2 x x o
+11 2 x 2 . 1 2 2 1 . . 1 2 2 1 . 1 1 1 . . . 3 x x o
+12 2 x 2 . . 1 1 1 . . . 1 x 1 . . . . . . . 2 x 4 x
+13 2 2 1 1 1 2 x 1 . . . 1 1 1 . . . . . . . 2 2 3 1
+14 x 2 . 1 x 2 1 1 . 1 2 2 1 . . . . . . . . 1 x 1 .
+15 x 3 2 4 3 2 1 1 1 2 x x 1 . 1 1 1 . . . . 1 1 2 1
+16 2 3 x x x 1 1 x 1 2 x 3 1 1 3 x 3 1 1 . . . . 1 x
+17 x 4 5 x 3 1 1 1 1 2 2 2 . 1 x x 4 x 3 1 1 1 1 1 1
+18 2 x x 2 1 . . . . 1 x 1 . 1 2 2 3 x x 1 1 x 2 1 .
+19 1 2 3 3 2 1 . . . 1 1 2 1 1 . 1 3 4 3 1 1 2 x 1 .
+20 . . 1 x x 1 . 1 1 2 1 2 x 3 2 3 x x 3 1 1 1 1 1 .
+21 . . 1 3 3 2 . 1 x 2 x 2 3 x x 3 x x 4 x 2 . . . .
+22 . . . 1 x 1 . 1 1 3 2 2 3 x 4 2 2 2 3 x 2 . 1 1 1
+23 1 1 . 1 1 1 . . . 1 x 2 3 x 3 1 1 2 3 3 3 2 2 x 1
+24 x 2 . . 1 1 1 . . 1 3 x 3 2 x 2 2 x x 3 x x 2 1 1
+25 x 2 . . 1 x 1 . . . 2 x 2 1 2 x 2 2 3 x 3 2 1 . .
+
+Flags Left: 1
+
+Choose one of the following actions:
+0: Reveal cell
+1: Toggle flag
+2: Solve locally
+3: Solve globally
+3
+
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y
+ 1 . 1 2 x 1 1 1 1 . 1 x 2 2 1 1 1 1 2 2 3 2 1 1 1 1
+ 2 . 2 x 3 1 1 x 1 . 1 2 x 2 x 1 1 x 3 x x x 1 1 x 1
+ 3 . 2 x 2 . 1 2 2 1 . 2 2 3 1 1 1 1 3 x 4 2 1 1 1 1
+ 4 1 2 2 1 . 1 2 x 2 1 1 x 1 . . . . 1 1 1 . . . 1 1
+ 5 1 x 2 1 . 1 x 3 x 1 1 1 1 . . . . . . . . . . 1 x
+ 6 1 2 x 1 . 1 1 2 1 1 . . . . . . 1 1 1 . 1 2 2 3 2
+ 7 . 2 2 2 . . . . . . . . . . . . 2 x 2 . 1 x x 4 x
+ 8 . 1 x 1 1 1 1 . . . . . . . . . 2 x 2 . 1 2 4 x x
+ 9 . 1 1 1 2 x 3 1 . . 1 1 1 . . 1 2 2 1 . . 1 4 x x
+10 1 1 1 . 2 x x 1 . . 1 x 1 . . 1 x 1 . . . 2 x x 4
+11 2 x 2 . 1 2 2 1 . . 1 2 2 1 . 1 1 1 . . . 3 x x 3
+12 2 x 2 . . 1 1 1 . . . 1 x 1 . . . . . . . 2 x 4 x
+13 2 2 1 1 1 2 x 1 . . . 1 1 1 . . . . . . . 2 2 3 1
+14 x 2 . 1 x 2 1 1 . 1 2 2 1 . . . . . . . . 1 x 1 .
+15 x 3 2 4 3 2 1 1 1 2 x x 1 . 1 1 1 . . . . 1 1 2 1
+16 2 3 x x x 1 1 x 1 2 x 3 1 1 3 x 3 1 1 . . . . 1 x
+17 x 4 5 x 3 1 1 1 1 2 2 2 . 1 x x 4 x 3 1 1 1 1 1 1
+18 2 x x 2 1 . . . . 1 x 1 . 1 2 2 3 x x 1 1 x 2 1 .
+19 1 2 3 3 2 1 . . . 1 1 2 1 1 . 1 3 4 3 1 1 2 x 1 .
+20 . . 1 x x 1 . 1 1 2 1 2 x 3 2 3 x x 3 1 1 1 1 1 .
+21 . . 1 3 3 2 . 1 x 2 x 2 3 x x 3 x x 4 x 2 . . . .
+22 . . . 1 x 1 . 1 1 3 2 2 3 x 4 2 2 2 3 x 2 . 1 1 1
+23 1 1 . 1 1 1 . . . 1 x 2 3 x 3 1 1 2 3 3 3 2 2 x 1
+24 x 2 . . 1 1 1 . . 1 3 x 3 2 x 2 2 x x 3 x x 2 1 1
+25 x 2 . . 1 x 1 . . . 2 x 2 1 2 x 2 2 3 x 3 2 1 . .
+
+Flags Left: 0
+
+CONGRATULATIONS! YOU WIN!
+
+Press [ENTER] to exit...
