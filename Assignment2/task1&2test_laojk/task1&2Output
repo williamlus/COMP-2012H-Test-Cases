@@ -1,0 +1,146 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> P
+test
+(P -> Q) -> ((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T)) \/ M
+intro h1
+split
+left
+split
+trivial
+split
+split
+split
+split
+trivial
+trivial
+trivial
+trivial
+trivial
+split
+right
+trivial
+B
+Q
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(P -> Q) -> ((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T) \/ M
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T) \/ M
+Enter a tactic:
+> Tactic 'split' failed: conclusion is not a conjunction
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T) \/ M
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+(((T /\ T) /\ T) /\ T) /\ T
+Enter a tactic:
+> Tactic 'trivial' failed: conclusion is not 'T'
+2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+(((T /\ T) /\ T) /\ T) /\ T
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+((T /\ T) /\ T) /\ T
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+(T /\ T) /\ T
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T /\ T
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T \/ T
+Enter a tactic:
+> Tactic 'split' failed: conclusion is not a conjunction
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T \/ T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> test : (P -> Q) -> ((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T) \/ M
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!

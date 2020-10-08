@@ -1,0 +1,356 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> P
+test3
+F -> Q -> Q
+intro h1
+intro h2
+apply h2
+P
+test2
+F -> (P -> Q) -> Q
+intro h1
+intro h2
+apply h2
+contradiction
+P
+test3
+test2
+test1
+F -> (P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q) -> Q
+Enter the name of the theorem to be proven:
+intro h1
+intro h2
+apply h2
+contradiction
+con> tradiction
+intro hPQR
+destruct hPQR as hPQ hR
+destruct hPQ as hP hQ
+left
+left
+apply hP
+left
+right
+apply hQ
+right
+Enter the statement of the theorem to be proven:
+apply hR
+contradiction
+intro hP> QR
+destruct hPQR as hP hQR
+destruct hQR as hQ hR
+split
+split
+apply hP
+apply hQ
+apply hR
+B
+Q
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> Q -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+Q -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Q
+h1 : F
+________________________________________________________________________________
+Q
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> (P -> Q) -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+(P -> Q) -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> Q
+h1 : F
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> Q
+h1 : F
+________________________________________________________________________________
+P
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> (P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q) -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+(P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q) -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+M \/ N
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R -> (P \/ Q) \/ R
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P \/ Q
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P \/ Q
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hPQ : P \/ Q
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+hR : R
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P \/ Q) \/ R
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+hR : R
+hPQR : (P \/ Q) \/ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+R
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+D /\ E
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P /\ Q /\ R -> (P /\ Q) /\ R
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P /\ Q) /\ R
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P /\ Q) /\ R
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hR : R
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+(P /\ Q) /\ R
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hR : R
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P /\ Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hR : R
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+P
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hR : R
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hR : R
+hP : P
+hQR : Q /\ R
+hPQR : P /\ Q /\ R
+h2 : P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q
+h1 : F
+________________________________________________________________________________
+R
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> test1 : F -> (P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q) -> Q
+test2 : F -> (P -> Q) -> Q
+test3 : F -> Q -> Q
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!

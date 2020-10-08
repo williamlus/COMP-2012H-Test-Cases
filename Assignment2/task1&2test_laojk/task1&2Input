@@ -1,0 +1,22 @@
+P
+test
+(P -> Q) -> ((((T /\ T) /\ T) /\ T) /\ T) /\ (T \/ T)) \/ M
+intro h1
+split
+left
+split
+trivial
+split
+split
+split
+split
+trivial
+trivial
+trivial
+trivial
+trivial
+split
+right
+trivial
+B
+Q
