@@ -1,0 +1,48 @@
+P
+test1
+F -> (P -> M \/ N -> ((P \/ Q) \/ R -> (P \/ Q) \/ R) -> D /\ E -> (P /\ Q /\ R -> (P /\ Q) /\ R) -> Q) -> Q
+intro h1
+intro h2
+apply h2
+rotate 2
+rotate 5
+excluded_middle h3 : P
+excluded_middle h3 : A \/ B \/ C
+excluded_middle h4 : A \/ B \/ C
+clear h5
+clear h1
+clear h2
+clear h3
+clear h4
+intro hPQR
+destruct hPQR as hPQ hR
+destruct hPQ as hP hQ
+left
+left
+apply hP
+left
+right
+apply hQ
+right
+apply hR
+by_contradiction h4
+by_contradiction h5
+clear h5
+clear h2
+clear h3
+clear h4
+apply h1
+contradiction
+contradiction
+intro hPQR
+destruct hPQR as hP hQR
+destruct hQR as hQ hR
+split
+split
+apply hP
+apply hQ
+apply hR
+contradiction
+abort
+B
+Q
